@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* fakestor website */
+.fake_nav{
+    width: 100%;
+    height: 60px;
+    /* background-color: white; */
+    background-color:rgb(216, 238, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 4px rgb(185, 215, 226);
+    position: fixed;
+    z-index: 1;
+    margin-top: -50px;
+}
+.enav{
+    /* background-color: red; */
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+.enav h1{
+    text-align: center;
+    font-family:fantasy;
+    font-size: 22px;
+    letter-spacing: 1px;
+    /* background-color: red; */
+}
+.enav h1::first-letter{
+    font-size: 40px;
+    color:red;
+}
+.einput{
+    width: 30%;
+    /* background-color: red; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 30px; */
+}
+.einput input{
+    width: 400px;
+    height: 20px;
+    padding: 9px 25px;
+    /* background-color:rgb(227, 227, 227); */
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+.search{
+    margin-left: -40px;
+    font-size: 15px;
+}
+.enav_list ul {
+    width: 450px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+}
+.enav_list ul>li{
+    background-color:teal;
+     /* background-color:rgb(234, 246, 250); */
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style-type:none ;
+    color: white;
+}
+.enav_list ul>li:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 2px black;
+}
+.enav_list .anchor{
+    text-decoration: none;
+    color:white;
+}
+.enav_list .anchor:hover{
+    color: black;
+}
+.ehome{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(230, 242, 246);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.model{
+    width: 420px;
+    height: 550px;
+    margin-top: 100px;
+    /* background-color: red; */
+}
+.model_man{
+    width: 420px;
+    height: 600px;
+    margin-top: 50px;
+}
+.econt{
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:white; */
+    border-radius: 20px;
+}
+/* .econt:hover{
+    box-shadow: 2px 2px 2px rgb(45, 45, 45);
+} */
+.econt h1{
+    font-size: 40px;
+}
+.econt h2{
+    color:rgb(4, 83, 83);
+    padding: 20px 0px 5px 0px;
+}
+.econt h5{
+    color: gray;
+}
+.econt button{
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: teal;
+    box-shadow: 1px 2px 2px rgb(45, 45, 45);
+}
+.add_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.add{
+    width: 88%;
+    height: 300px;
+}
+.hardwork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.hardwork input{
+    width: 30%;
+    height: 40px;
+    /* background-color: rgb(230, 242, 246); */
+    background-color:teal;
+    font-weight: bold;
+    color: white;
+    outline: none;
+    border: none;
+    /* border: 1px solid teal; */
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+.hardwork input::placeholder{
+    color: white;
+}
+.fake{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.fakestore_cards{
+    width: 27%;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+    /* padding: 20px; */
+    /* background-color: white; */
+    background-color: rgb(215, 237, 245);
+}
+.fakestore_cards .image{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    /* border-bottom: 2px solid teal; */
+    padding: 18px 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+.fakestore_cards .image img{
+    width: 80%;
+    height:100%;
+    border-radius: 20px;
+}
+.fakestore_cards .title{
+    font-size: 17px;
+    /* text-align: center; */
+    padding-top: 10px;
+}
+.fakestore_cards .center{
+    text-align: center;
+    margin-top: 8px;
+    color: gray;
+}
+
+.fakestore_cards .cont{
+    height: 400px;
+    /* margin-top: 10px; */
+    border-radius: 20px;
+    padding: 0px 20px;
+    /* background-color: rgb(215, 237, 245); */
+}
+.dollar{
+    font-size: 16px;
+}
+.fakestore_cards h3{
+    padding-top: 10px ;
+    font-size: 26px;
+}
+.about_product{
+    font-weight: bold;
+}
+.fakestore_cards p{
+    padding: 10px 0px;
+}
+.rating_div{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 110, 110);
+    padding: 5px  10px;
+    margin-top: 12px;
+    border-radius: 5px;
+    color: white;
+}
+.rating_div .star{
+    border-right:2px solid white ;
+    margin-right: 8px;
+    padding-right: 8px;
+}
+.fakestore_cards .btn{
+    padding: 5px 15px;
+    margin: 10px 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 87, 87);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 5px;
+}
+#clear_cart{
+    font-size: 13px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
+.fakestore_cards .btn:hover{
+    box-shadow: 1px 1px 2px black;
+}
+.efooter{
+    width: 100%;
+    height: 40px;
+    background-color: teal;
+    box-shadow: 0px -1px 2px rgb(215, 237, 245);
+    margin-top: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
